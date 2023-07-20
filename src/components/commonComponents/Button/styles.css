@@ -1,0 +1,20 @@
+.custom-btn{
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    cursor: pointer;
+    color: var(--theme);
+    border: 2px solid var(--white);
+    border-radius: 0.35rem;
+    padding: 1rem;
+    font-size: 1rem;
+    margin: 1rem;
+    width: 60vw;
+    font-weight: 500;
+}
+
+.custom-btn:hover{
+    background-color: var(--purple-grey);
+    border-color: var(--purple-grey);
+    color: var(--theme);
+    transition: all 0.2s;
+}
